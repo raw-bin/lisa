@@ -46,7 +46,7 @@ function lisa-help {
 clear
 echo -ne '\E[37;42m'
 echo "                                                                               "
-echo "                    .:: LISA Shell - HELP On-Line ::.                          "
+echo "                    .:: LISA Shell - On-Line Help ::.                          "
 echo "                                                                               "
 echo -ne "$LISASHELL_RESET$LISASHELL_GREEN"
 cat $LISA_HOME/LisaShell.txt
