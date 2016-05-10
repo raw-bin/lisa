@@ -20,6 +20,7 @@ Vagrant.configure(2) do |config|
 
     ln -s /vagrant /home/vagrant/lisa
     chown vagrant.vagrant /home/vagrant/lisa
+    echo unset LANG LC_CTYPE >> /home/vagrant/.bashrc
     echo cd /home/vagrant/lisa >> /home/vagrant/.bashrc
     echo source init_env >> /home/vagrant/.bashrc
   SHELL
