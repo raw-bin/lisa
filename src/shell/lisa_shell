@@ -170,7 +170,12 @@ rm -f $PIDFILE 2>/dev/null
 
 function lisa-ipython {
 CMD=${1:-start}
+if [ $USER == "vagrant" ]
+then
+NETIF=${2:-eth0}
+else
 NETIF=${2:-lo}
+fi
 echo
 case "x${CMD^^}" in
 'xSTART')
