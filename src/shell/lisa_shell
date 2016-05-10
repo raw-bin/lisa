@@ -114,7 +114,7 @@ echo
 
 function _lisa-ipython-usage {
     echo "Usage: lisa-ipython CMD [NETIF]"
-	echo " CMD     - IPython Notebooks command (deafult: start)"
+	echo " CMD     - IPython Notebooks command (default: start)"
 	echo "  start  start the ipython server"
 	echo "   stop  stop the ipython server"
     echo " NETIF   - the network interface to start the server on (default: lo)"
